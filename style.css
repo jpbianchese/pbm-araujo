@@ -1,0 +1,67 @@
+body {
+    background-color: #f4f7f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 95%;
+}
+
+.header-section h2 {
+    color: #0056b3;
+    font-weight: 700;
+    border-left: 5px solid #0056b3;
+    padding-left: 15px;
+}
+
+.upload-box {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilização das células da tabela */
+.price-badge {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.ean-badge {
+    font-family: 'Courier New', Courier, monospace;
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Ajustes no DataTables */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* ... manter o CSS anterior ... */
+
+.btn-success {
+    background-color: #198754;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover:not(:disabled) {
+    background-color: #146c43;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-success:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
